@@ -5,7 +5,7 @@
     android:fillViewport="true"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/quick"
+    android:background="@drawable/rum"
     tools:context=".QuizQuestionActivity">
  <LinearLayout
      android:layout_width="match_parent"
@@ -22,15 +22,15 @@
          android:gravity="center"
          android:textSize="22sp"
          android:textStyle="bold"
-         android:textColor="@color/white"
-         tools:text="What is this flag belong to?" />
+         android:textColor="@color/black"
+         tools:text="Choose the following option" />
      <ImageView
          android:id="@+id/iv_image"
          android:layout_width="wrap_content"
          android:layout_height="wrap_content"
          android:layout_marginTop="16dp"
          android:contentDescription="Quiz Image"
-         android:src="@drawable/ic_flag_of_argentina" />
+         android:src="@drawable/just20" />
      <LinearLayout
          android:layout_width="match_parent"
          android:layout_height="wrap_content"
@@ -70,7 +70,7 @@
          android:padding="15dp"
          android:textColor="#7A8089"
          android:textSize="18sp"
-         tools:text="Apple"
+         tools:text="I like it"
          />
      <TextView
          android:id="@+id/tv_option_two"
@@ -82,7 +82,7 @@
          android:padding="15dp"
          android:textColor="#7A8089"
          android:textSize="18sp"
-         tools:text="Apple"
+         tools:text="I like it"
          />
      <TextView
          android:id="@+id/tv_option_three"
@@ -94,7 +94,7 @@
          android:padding="15dp"
          android:textColor="#7A8089"
          android:textSize="18sp"
-         tools:text="Apple"
+         tools:text="I like it"
          />
      <TextView
          android:id="@+id/tv_option_four"
@@ -106,7 +106,7 @@
          android:padding="15dp"
          android:textColor="#7A8089"
          android:textSize="18sp"
-         tools:text="Apple"
+         tools:text="I like it"
          />
      <Button
          android:id="@+id/btn_submit"

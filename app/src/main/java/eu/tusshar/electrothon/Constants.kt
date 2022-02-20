@@ -25,13 +25,13 @@ object Constants {
             "Run outside immediately.",
             " DUCK, COVER and HOLD ON! Duck or drop down to the floor.",
             "Call your friends and relatives as soon as possible to find out if they are OK.",
-            "None of the above",
+            "Get in a doorway",
             1
         )
         questionList.add(ques2)
         val ques3=Question(
             3, question = "If you feel a STRONG coastal earthquake that lasts 20 seconds or longer, you should:",
-            R.drawable.just3,
+            R.drawable.justno3,
             "Drop, cover, and hold on.",
             "When the shaking stops, evacuate quickly.",
             "BOTH of the above; drop, cover, and hold on and when the shaking stops, evacuate quickly.",
@@ -45,7 +45,7 @@ object Constants {
             "Return Home",
             "Wait until local officials tell you it is safe",
             "Go to the beach to inspect the effects of tsunami",
-            "None of the above",
+            "Stop and pack your most cherished possessions",
             2
         )
         questionList.add(ques4)
@@ -55,7 +55,7 @@ object Constants {
             "Lay on the ground as flat as possible.",
             "Quickly move out of the path of the landslide or debris flow.",
             "Stand in the same place and do not move.",
-            "None of the above",
+            "Climb a nearby tree or pole",
             2
         )
         questionList.add(ques5)
@@ -64,18 +64,18 @@ object Constants {
             R.drawable.just6,
             "Inspect the damage caused by the landslide.",
             "Stay away from the slide area.",
-            "NEITHER of the above.",
-            "None of the above",
+            "Touch nearby electric wires or poles",
+            "walk over the loose material",
             2
         )
         questionList.add(ques6)
         val ques7=Question(
             7, question = "Wherever you are, if you hear or see a tornado coming, what should you do?",
-            R.drawable.just7,
+            R.drawable.justno7,
             "Run away from the tornado as fast as possible.",
             "Stay where you are and do not move.",
             "Take cover right away.",
-            "None of the above",
+            "Stand near a window",
             3
         )
         questionList.add(ques7)
@@ -85,23 +85,23 @@ object Constants {
             "Move to higher ground.",
             "Lie flat in a low spot and use your arms and hands to protect your head.",
             "Get into a car if one is nearby.",
-            "None of the above",
+            "Take shelter near a bridge or a tree",
             2
         )
         questionList.add(ques8)
         val ques9=Question(
             9, question = "What should you do if you come upon flood waters?",
-            R.drawable.just9,
+            R.drawable.justno9,
             "Try to drive through the water.",
             " Try to swim through the water.",
             "Stop! Turn around and go another way.",
-            "None of the above",
+            "Try to walk through the running flood water",
             3
         )
         questionList.add(ques9)
         val ques10=Question(
             10, question = "How many inches of fast-moving flood water can knock you off your feet?",
-            R.drawable.just10,
+            R.drawable.only10,
             " 6 inches",
             " 8 inches",
             "10 inches",
@@ -125,17 +125,17 @@ object Constants {
             "Rain",
             "Storm surge",
             "High winds",
-            "None of the above",
+            "Hail",
             2
         )
         questionList.add(ques12)
         val ques13=Question(
             13, question = "If you hear a thunderstorm coming, what should you do?",
-            R.drawable.just13,
+            R.drawable.justno13,
             "Stand under a tree for protection.",
             "Go immediately inside a sturdy building or vehicle with a metal top and side.",
             "Lie down flat on the ground.",
-            "None of the above",
+            "Use a cliff or a rocky overhang for shelter",
             2
         )
         questionList.add(ques13)
@@ -145,23 +145,23 @@ object Constants {
             "Stand under a tree to keep from getting wet",
             "Stand outside in open away from tree",
             "Run towards a substantial building or vehicle with metal top and sides",
-            "None of the above",
+            "Get in a nearby pond or lake",
             3
         )
         questionList.add(ques14)
         val ques15=Question(
             15, question = "Volcanoes are:",
-            R.drawable.just15,
+            R.drawable.justno15,
             "Randomly distributed over the Earth's surface.",
             "Concentrated at the north and south poles.",
             "Concentrated on the edges of continents beneath the sea forming long mountain ranges.",
-            "None of the above",
+            "Concentrated only at the equator",
             3
         )
         questionList.add(ques15)
         val ques16=Question(
             16, question = "If you live near an active volcano, what can you do to plan for a volcanic eruption?",
-            R.drawable.just16,
+            R.drawable.justno16,
             "Develop an Evacuation Plan.",
             "Learn about your community warning systems and emergency plans.",
             "BOTH of the above; develop an Evacuation Plan and learn about your community warning systems and emergency plans. ",
@@ -171,7 +171,7 @@ object Constants {
         questionList.add(ques16)
         val ques17=Question(
             17, question = "If your home is at risk from wildfire, what can you do to reduce the fire hazard?",
-            R.drawable.just17,
+            R.drawable.justno17,
             "Mow and water the grass regularly.",
             "Regularly dispose of newspapers and rubbish at an approved site.",
             "BOTH of the above; mow and water the grass regularly and regularly dispose of newspapers and rubbish at an approved site.",
@@ -181,11 +181,11 @@ object Constants {
         questionList.add(ques17)
         val ques18=Question(
             18, question = "What is the most vulnerable part of a house in the event of a wildfire?",
-            R.drawable.just18,
+            R.drawable.justno18,
             "Porch",
             "Deck",
             "Roof",
-            "None of the above",
+            "Floor",
             3
         )
         questionList.add(ques18)
@@ -205,7 +205,7 @@ object Constants {
             "DUCK, COVER and HOLD ON during an earthquake.",
             " Lie down as flat as possible on the ground if lightning is about to strike.",
             "Stop and drop if your clothes catch on fire.",
-            "None of the above",
+            "Stand under a tree to keep from getting wet during a thunderstorm",
             1
         )
         questionList.add(ques20)
