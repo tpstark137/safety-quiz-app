@@ -184,6 +184,7 @@ private fun defaultOptionsView()
                     if(mCurrentPosition==mQuestionList!!.size)
                     {
                         btnSubmit?.text="FINISH"
+
                     }
                     else
                     {

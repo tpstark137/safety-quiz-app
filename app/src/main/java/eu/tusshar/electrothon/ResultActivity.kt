@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
 import android.widget.TextView
+import android.widget.Toast
 
 class ResultActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -23,6 +24,8 @@ class ResultActivity : AppCompatActivity() {
 
         btnFinish.setOnClickListener {
             startActivity(Intent(this,MainActivity::class.java))
+            Toast.makeText(this,
+            "Presented By: The Error Makers!",Toast.LENGTH_LONG).show()
         }
     }
 }

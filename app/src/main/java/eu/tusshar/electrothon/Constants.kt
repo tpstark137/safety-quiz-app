@@ -11,7 +11,7 @@ object Constants {
         val questionList=ArrayList<Question>()
         val ques1=Question(
             1, question = "If you are at risk from earthquake,what can you do to prepare for an earthquake?",
-            R.drawable.just2,
+            R.drawable.get1,
              "Choose a safe place in every room in your home, such as under a sturdy table or desk.",
             "Develop a Family Disaster Plan.",
              "BOTH of the above; choose a safe place and develop a Family Disaster Plan.",
@@ -31,7 +31,7 @@ object Constants {
         questionList.add(ques2)
         val ques3=Question(
             3, question = "If you feel a STRONG coastal earthquake that lasts 20 seconds or longer, you should:",
-            R.drawable.justno3,
+            R.drawable.ino3,
             "Drop, cover, and hold on.",
             "When the shaking stops, evacuate quickly.",
             "BOTH of the above; drop, cover, and hold on and when the shaking stops, evacuate quickly.",
@@ -71,7 +71,7 @@ object Constants {
         questionList.add(ques6)
         val ques7=Question(
             7, question = "Wherever you are, if you hear or see a tornado coming, what should you do?",
-            R.drawable.justno7,
+            R.drawable.fk7,
             "Run away from the tornado as fast as possible.",
             "Stay where you are and do not move.",
             "Take cover right away.",
@@ -131,7 +131,7 @@ object Constants {
         questionList.add(ques12)
         val ques13=Question(
             13, question = "If you hear a thunderstorm coming, what should you do?",
-            R.drawable.justno13,
+            R.drawable.fk13,
             "Stand under a tree for protection.",
             "Go immediately inside a sturdy building or vehicle with a metal top and side.",
             "Lie down flat on the ground.",
@@ -151,7 +151,7 @@ object Constants {
         questionList.add(ques14)
         val ques15=Question(
             15, question = "Volcanoes are:",
-            R.drawable.justno15,
+            R.drawable.fk15,
             "Randomly distributed over the Earth's surface.",
             "Concentrated at the north and south poles.",
             "Concentrated on the edges of continents beneath the sea forming long mountain ranges.",
