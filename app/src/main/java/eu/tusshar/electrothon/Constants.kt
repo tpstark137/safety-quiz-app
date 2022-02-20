@@ -26,7 +26,7 @@ object Constants {
             " DUCK, COVER and HOLD ON! Duck or drop down to the floor.",
             "Call your friends and relatives as soon as possible to find out if they are OK.",
             "Get in a doorway",
-            1
+            2
         )
         questionList.add(ques2)
         val ques3=Question(
@@ -36,7 +36,7 @@ object Constants {
             "When the shaking stops, evacuate quickly.",
             "BOTH of the above; drop, cover, and hold on and when the shaking stops, evacuate quickly.",
             "None of the above",
-            1
+            3
         )
         questionList.add(ques3)
         val ques4=Question(

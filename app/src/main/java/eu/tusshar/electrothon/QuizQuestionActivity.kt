@@ -180,7 +180,7 @@ private fun defaultOptionsView()
                     {
                         mCorrectAnswers++
                     }
-                    answerView(mSelectedOptionPosition, R.drawable.correct_option_border_bg)
+                    answerView(question.correctAnswer, R.drawable.correct_option_border_bg)
                     if(mCurrentPosition==mQuestionList!!.size)
                     {
                         btnSubmit?.text="FINISH"
