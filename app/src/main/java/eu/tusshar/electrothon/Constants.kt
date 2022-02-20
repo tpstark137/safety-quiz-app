@@ -3,6 +3,9 @@ package eu.tusshar.electrothon
 import java.util.ArrayList
 
 object Constants {
+    const val USER_NAME:String="user_name"
+    const val TOTAL_QUESTIONS:String="total_questions"
+    const val CORRECT_ANSWERS:String="correct_answers"
 
     fun getQuestions():ArrayList<Question>{
         val questionList=ArrayList<Question>()
@@ -13,7 +16,7 @@ object Constants {
             "Develop a Family Disaster Plan.",
              "BOTH of the above; choose a safe place and develop a Family Disaster Plan.",
              "None of the above",
-            1
+            3
         )
         questionList.add(ques1)
         val ques2=Question(
@@ -43,7 +46,7 @@ object Constants {
             "Wait until local officials tell you it is safe",
             "Go to the beach to inspect the effects of tsunami",
             "None of the above",
-            1
+            2
         )
         questionList.add(ques4)
         val ques5=Question(
@@ -53,7 +56,7 @@ object Constants {
             "Quickly move out of the path of the landslide or debris flow.",
             "Stand in the same place and do not move.",
             "None of the above",
-            1
+            2
         )
         questionList.add(ques5)
         val ques6=Question(
@@ -63,7 +66,7 @@ object Constants {
             "Stay away from the slide area.",
             "NEITHER of the above.",
             "None of the above",
-            1
+            2
         )
         questionList.add(ques6)
         val ques7=Question(
@@ -73,7 +76,7 @@ object Constants {
             "Stay where you are and do not move.",
             "Take cover right away.",
             "None of the above",
-            1
+            3
         )
         questionList.add(ques7)
         val ques8=Question(
@@ -83,7 +86,7 @@ object Constants {
             "Lie flat in a low spot and use your arms and hands to protect your head.",
             "Get into a car if one is nearby.",
             "None of the above",
-            1
+            2
         )
         questionList.add(ques8)
         val ques9=Question(
@@ -93,7 +96,7 @@ object Constants {
             " Try to swim through the water.",
             "Stop! Turn around and go another way.",
             "None of the above",
-            1
+            3
         )
         questionList.add(ques9)
         val ques10=Question(
@@ -113,7 +116,7 @@ object Constants {
             " Develop an Evacuation Plan.",
             "BOTH of the above; develop a Family Disaster Plan and an Evacuation Plan.",
             "None of the above",
-            1
+            3
         )
         questionList.add(ques11)
         val ques12=Question(
@@ -123,27 +126,27 @@ object Constants {
             "Storm surge",
             "High winds",
             "None of the above",
-            1
+            2
         )
         questionList.add(ques12)
         val ques13=Question(
-            13, question = "What should you do if your clothes catch fire?",
+            13, question = "If you hear a thunderstorm coming, what should you do?",
             R.drawable.just13,
-            "Run as fast as you can.",
-            "Stop, drop and roll.",
-            "Find water and pour it on the flames.",
+            "Stand under a tree for protection.",
+            "Go immediately inside a sturdy building or vehicle with a metal top and side.",
+            "Lie down flat on the ground.",
             "None of the above",
-            1
+            2
         )
         questionList.add(ques13)
         val ques14=Question(
-            14, question = "If you hear a thunderstorm coming, what should you do?",
+            14, question = "If you can't get inside during a thunderstorm,what should you do?",
             R.drawable.just14,
-            "Stand under a tree for protection.",
-            " Go immediately inside a sturdy building or vehicle with a metal top and side.",
-            "Lie down flat on the ground.",
+            "Stand under a tree to keep from getting wet",
+            "Stand outside in open away from tree",
+            "Run towards a substantial building or vehicle with metal top and sides",
             "None of the above",
-            1
+            3
         )
         questionList.add(ques14)
         val ques15=Question(
@@ -153,7 +156,7 @@ object Constants {
             "Concentrated at the north and south poles.",
             "Concentrated on the edges of continents beneath the sea forming long mountain ranges.",
             "None of the above",
-            1
+            3
         )
         questionList.add(ques15)
         val ques16=Question(
@@ -163,7 +166,7 @@ object Constants {
             "Learn about your community warning systems and emergency plans.",
             "BOTH of the above; develop an Evacuation Plan and learn about your community warning systems and emergency plans. ",
             "None of the above",
-            1
+            3
         )
         questionList.add(ques16)
         val ques17=Question(
@@ -173,7 +176,7 @@ object Constants {
             "Regularly dispose of newspapers and rubbish at an approved site.",
             "BOTH of the above; mow and water the grass regularly and regularly dispose of newspapers and rubbish at an approved site.",
             "None of the above",
-            1
+            3
         )
         questionList.add(ques17)
         val ques18=Question(
@@ -183,7 +186,7 @@ object Constants {
             "Deck",
             "Roof",
             "None of the above",
-            1
+            3
         )
         questionList.add(ques18)
         val ques19=Question(
@@ -193,7 +196,7 @@ object Constants {
             "First aid kit",
             "BOTH of the above; flashlight and extra batteries and a first aid kit.",
             "None of the above",
-            1
+            3
         )
         questionList.add(ques19)
         val ques20=Question(
